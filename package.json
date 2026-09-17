@@ -1,0 +1,30 @@
+{
+  "name": "openmusic-consumer",
+  "version": "1.0.0",
+  "description": "OpenMusic Message Queue Consumer",
+  "main": "src/consumer.js",
+  "scripts": {
+    "start": "node src/consumer.js",
+    "start-dev": "nodemon src/consumer.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "openmusic",
+    "consumer",
+    "rabbitmq"
+  ],
+  "author": "Dwi Nurhidayat",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^17.2.3",
+    "nodemailer": "^6.10.1",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "nodemon": "^3.1.11"
+  }
+}
